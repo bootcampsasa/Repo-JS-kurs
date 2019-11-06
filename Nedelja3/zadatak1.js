@@ -1,10 +1,9 @@
-
 function maxNumb(a, b, c){
-    if(a>b && a>c)
+    if(a>=b && a>=c)
         return a
-    if(b>a && b>c)
+    if(b>=a && b>=c)
         return b
-    if(c>a && c>b)
+    if(c>=a && c>=b)
         return c
 }
-console.log(maxNumb(12, 18, 5))
+console.log(maxNumb(12, 18, 18))

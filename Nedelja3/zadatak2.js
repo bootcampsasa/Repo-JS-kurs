@@ -1,5 +1,5 @@
 function cenaPizzePoCmQ(price, r){
-    let povrsina=r*r*3.14;
+    let povrsina=Math.pow(r, 2)*Math.PI;
     let cenaPizzePoCmQ=price/povrsina;
     return cenaPizzePoCmQ;
 }
